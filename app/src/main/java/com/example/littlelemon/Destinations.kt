@@ -5,10 +5,10 @@ interface Destinations {
 }
 
 object Home: Destinations{
-    override val route: String = "home"
+    override val route: String = "Home"
 }
 object OnBoarding: Destinations{
-    override val route: String = "onboarding"
+    override val route: String = "OnBoarding"
 }
 object Profile: Destinations{
     override val route: String = "Profile"

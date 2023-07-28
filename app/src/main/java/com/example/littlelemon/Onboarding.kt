@@ -53,7 +53,7 @@ fun Onboarding(navController: NavController) {
     var emailAddress by remember {
         mutableStateOf("")
     }
-    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+    Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth().padding(15.dp)) {
         Image(
             painter = painterResource(id = R.drawable.logo),
             contentDescription = "Little Lemon Logo",
